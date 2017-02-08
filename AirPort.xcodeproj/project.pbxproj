@@ -15,6 +15,10 @@
 		F4B955DE1E49DB3200060BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B955DC1E49DB3200060BEF /* LaunchScreen.storyboard */; };
 		F4B955E91E49DB3200060BEF /* AirPortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B955E81E49DB3200060BEF /* AirPortTests.swift */; };
 		F4B955F41E49DB3200060BEF /* AirPortUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B955F31E49DB3200060BEF /* AirPortUITests.swift */; };
+		F4B956081E4A248400060BEF /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B956071E4A248400060BEF /* Airport.swift */; };
+		F4B9560A1E4A24CC00060BEF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B956091E4A24CC00060BEF /* Country.swift */; };
+		F4B9560C1E4A254000060BEF /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9560B1E4A254000060BEF /* Resources.swift */; };
+		F4B9560E1E4A25AF00060BEF /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9560D1E4A25AF00060BEF /* World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F4B955EF1E49DB3200060BEF /* AirPortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B955F31E49DB3200060BEF /* AirPortUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPortUITests.swift; sourceTree = "<group>"; };
 		F4B955F51E49DB3200060BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B956071E4A248400060BEF /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		F4B956091E4A24CC00060BEF /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F4B9560B1E4A254000060BEF /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		F4B9560D1E4A25AF00060BEF /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				F4B955D01E49DB3200060BEF /* AppDelegate.swift */,
 				F4B955D21E49DB3200060BEF /* ViewController.swift */,
+				F4B9560D1E4A25AF00060BEF /* World.swift */,
+				F4B956091E4A24CC00060BEF /* Country.swift */,
+				F4B956071E4A248400060BEF /* Airport.swift */,
+				F4B9560B1E4A254000060BEF /* Resources.swift */,
 				F4B955D41E49DB3200060BEF /* Main.storyboard */,
 				F4B955DA1E49DB3200060BEF /* Assets.xcassets */,
 				F4B955DC1E49DB3200060BEF /* LaunchScreen.storyboard */,
@@ -266,7 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4B955D31E49DB3200060BEF /* ViewController.swift in Sources */,
+				F4B956081E4A248400060BEF /* Airport.swift in Sources */,
 				F4B955D91E49DB3200060BEF /* AirPort.xcdatamodeld in Sources */,
+				F4B9560C1E4A254000060BEF /* Resources.swift in Sources */,
+				F4B9560A1E4A24CC00060BEF /* Country.swift in Sources */,
+				F4B9560E1E4A25AF00060BEF /* World.swift in Sources */,
 				F4B955D11E49DB3200060BEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
